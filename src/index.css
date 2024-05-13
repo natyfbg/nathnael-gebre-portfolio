@@ -8,6 +8,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+
 }
 
 :root{
@@ -22,8 +23,14 @@
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
-    --container-width-md: 90%;
+    --container-width-sd: 90%;
 }
+.no-bullets{
+    list-style-type: none;
+}
+
+
+
 html{
     scroll-behavior: smooth;
 }
@@ -39,6 +46,7 @@ body{
     line-height: 1.7;
     background-image: url(/src/assets/bg-texture.png);
 }
+
 
 /* ================================General Styles =============== */
 
@@ -56,7 +64,6 @@ h1{
 
 section{
     margin-top: 8rem;
-    height: 100vh;
 }
 
 section > h2, section > h5 {
